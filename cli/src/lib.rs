@@ -6,6 +6,8 @@ mod cmd;
 pub(crate) mod settings;
 mod table;
 
+mod argparse;
+
 use cmd::ArgMatchResult;
 pub(crate) use cmd::CommandInvocation;
 
